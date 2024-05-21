@@ -91,3 +91,9 @@ variable "cloudfront_function_arn" {
   default     = ""
   description = "The ARN of a CloudFront distribution function."
 }
+
+variable "cloudfront_function_event_type" {
+  type        = string
+  default     = "viewer-request"
+  description = "The event type for the CloudFront distribution function."
+}

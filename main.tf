@@ -118,7 +118,7 @@ resource "aws_cloudfront_distribution" "cdn" {
     dynamic "function_association" {
       for_each = var.cloudfront_function_arn != "" ? [1] : []
       content {
-        event_type   = "viewer-request"
+        event_type   = var.cloudfront_function_event_type
         function_arn = var.cloudfront_function_arn
       }
     }
