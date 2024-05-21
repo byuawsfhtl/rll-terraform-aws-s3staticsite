@@ -18,14 +18,14 @@ jobs:
               {
                 "tf_version":"0.13.7",
                 "tf_working_dir":"./examples/ci-13",
-                "aws_account":"222021474030",
-                "aws_gha_role":"byuawsfhtl-stg-gha"
+                "aws_account":"977306314792",
+                "aws_gha_role":"terraform-staticsite-dev-gha"
               },
               {
                 "tf_version":"0.12.31",
                 "tf_working_dir":"./examples/ci-12",
-                "aws_account":"222021474030",
-                "aws_gha_role":"byuawsfhtl-stg-gha"
+                "aws_account":"977306314792",
+                "aws_gha_role":"terraform-staticsite-dev-gha"
               }
             ]
           }'
